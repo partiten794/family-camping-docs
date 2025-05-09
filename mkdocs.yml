@@ -1,12 +1,13 @@
 site_name: "Family Camping Protocol"
 theme:
   name: "material"
+  language: en
+  locale: ja
+
 nav:
-  - ホーム: index.md
-  - Packing List: packing-list.md
-  - Protocols:
-      - General Guidelines: protocols/general-guidelines.md
-      - Safety: protocols/safety.md
-      - Meal Planning: protocols/meal-planning.md
-  - Shared Gear: shared-gear.md
-  - Authentication: authentication.md
+  - English:
+      - Home: en/index.md
+      - Packing List: en/packing-list.md
+  - 日本語:
+      - ホーム: ja/index.md
+      - 持ち物リスト: ja/packing-list.md
