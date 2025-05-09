@@ -7,7 +7,23 @@ theme:
 nav:
   - English:
       - Home: en/index.md
-      - Packing List: en/packing-list.md
+      - Purpose and Philosophy: en/purpose.md
+      - Setup and Takedown Efficiency: en/setup.md
+      - Tents and Sleep Quality: en/tents.md
+      - Cooking and Meals: en/cooking.md
+      - Campfire Time: en/campfire.md
+      - Other Enjoyments: en/enjoyments.md
+      - Preparation and Planning: en/planning.md
+      - Gear Management: en/gear.md
+      - Future Camping Standards (FC2025): en/fc2025.md
   - 日本語:
       - ホーム: ja/index.md
-      - 持ち物リスト: ja/packing-list.md
+      - キャンプの目的と考え方: ja/purpose.md
+      - 設営・撤収の効率化: ja/setup.md
+      - テントと睡眠の質: ja/tents.md
+      - 調理・食事: ja/cooking.md
+      - 焚き火時間の充実: ja/campfire.md
+      - その他の楽しみ: ja/enjoyments.md
+      - 事前準備と計画: ja/planning.md
+      - 装備（ギア）の管理: ja/gear.md
+      - 今後のキャンプ基準（FC2025案）: ja/fc2025.md
