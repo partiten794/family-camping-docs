@@ -11,6 +11,16 @@ theme:
   language: en
   locale: ja
 
+plugin:
+  - search:
+      lang:
+        - ja
+        - en
+  - exclude:
+    glob:
+      - "**/.git/*"
+      - "**/node_modules/*"
+
 nav:
   - English:
       - Home: en/index.md
