@@ -1,6 +1,3 @@
-# サイトはここで見れるよ
-
-[キャンプグッズ決定プロトコルサイト](https://partiten794.github.io/family-camping-docs/)
 
 # Family Camping Documentation
 
@@ -21,14 +18,22 @@ To get started with this project, follow these steps:
 
 1. **Clone the Repository**: Use Git to clone this repository to your local machine.
 2. **Install MkDocs**: Ensure you have MkDocs installed. You can install it using pip:
-   ```
+
+   ```bash
    pip install mkdocs
    ```
+
 3. **Run the Documentation Site**: Navigate to the project directory and run:
-   ```
+
+   ```bash
    mkdocs serve
    ```
+
    This will start a local server where you can view the documentation in your web browser.
+
+# ＃ サイトはここで見れるよ
+
+[キャンプグッズ決定プロトコル](https://partiten794.github.io/family-camping-docs/)
 
 ## Contributing
 
