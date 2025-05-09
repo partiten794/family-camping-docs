@@ -1,0 +1,12 @@
+site_name: "Family Camping Protocol"
+theme:
+  name: "material"
+nav:
+  - Home: index.md
+  - Packing List: packing-list.md
+  - Protocols:
+      - General Guidelines: protocols/general-guidelines.md
+      - Safety: protocols/safety.md
+      - Meal Planning: protocols/meal-planning.md
+  - Shared Gear: shared-gear.md
+  - Authentication: authentication.md
