@@ -5,21 +5,42 @@ on:
     branches:
       - main
 
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
+permissions:
+  contents: write # リポジトリへの書き込み権限を付与
+  pages: write    # GitHub Pagesへのデプロイ権限を付与 (必須)
+  id-token: write # OIDC認証用のトークン権限 (deploy-pages アクションに必須)
 
+jobs:
+  build:
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.13'
+          cache: 'pip'
 
       - name: Install dependencies
         run: pip install mkdocs-material
 
-      - name: Build and Deploy
-        run: mkdocs gh-deploy --force
+      - name: Build MkDocs site
+        run: mkdocs build --clean # --clean オプションでクリーンビルドを推奨
+
+      - name: Upload artifact for GitHub Pages
+        uses: actions/upload-pages-artifact@v3 # 最新バージョン推奨
+        with:
+          path: ./site # MkDocsのビルド出力ディレクトリ (mkdocs.ymlで site_dir を変更している場合はそれに合わせる)
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build # build ジョブが成功した後に実行
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4 # 最新バージョン推奨
