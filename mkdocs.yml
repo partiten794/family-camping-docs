@@ -2,7 +2,7 @@ site_name: "Family Camping Protocol"
 theme:
   name: "material"
 nav:
-  - Home: index.md
+  - ホーム: index.md
   - Packing List: packing-list.md
   - Protocols:
       - General Guidelines: protocols/general-guidelines.md
