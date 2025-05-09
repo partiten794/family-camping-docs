@@ -1,4 +1,5 @@
 site_name: "Family Camping Protocol"
+docs_dir: docs
 theme:
   name: "material"
   language: en
