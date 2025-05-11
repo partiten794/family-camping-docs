@@ -8,10 +8,17 @@ site_author: "Your Name"
 
 theme:
   name: "terminal"
-  language: ja
+  language: en
   locale: ja
+  palette:
+  　primary: green
+  features:
+    - navigation.instant
+    - navigation.tracking
+extra_css:
+  - stylesheets/extra.css
 
-plugin:
+plugins:
   - search:
       lang:
         - ja
