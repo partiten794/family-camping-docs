@@ -24,9 +24,9 @@ plugins:
         - ja
         - en
   - exclude:
-    glob:
-      - "**/.git/*"
-      - "**/node_modules/*"
+      glob:
+        - "**/.git/*"
+        - "**/node_modules/*"
 
 nav:
   - 日本語:
