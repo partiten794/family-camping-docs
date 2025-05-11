@@ -7,8 +7,8 @@ site_description: "A guide to family camping, focusing on efficiency and enjoyme
 site_author: "Your Name"
 
 theme:
-  name: "material"
-  language: en
+  name: "terminal"
+  language: ja
   locale: ja
 
 plugin:
