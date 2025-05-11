@@ -19,7 +19,7 @@ jobs:
           python-version: '3.13'
 
       - name: Install dependencies
-        run: pip install mkdocs-terminal
+        run: pip install mkdocs-terminal mkdocs-material mkdocs-exclude mkdocs-minify-plugin
 
       - name: Build and Deploy
         run: mkdocs gh-deploy --force
