@@ -8,7 +8,7 @@ site_author: "Your Name"
 
 theme:
   name: "terminal"
-  language: en
+  language: ja
   locale: ja
   palette:
   　primary: green
