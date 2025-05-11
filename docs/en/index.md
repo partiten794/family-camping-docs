@@ -1,4 +1,4 @@
-# Family Camping Protocol
+# Family Camping Protocol FC2025
 
 Welcome to the Family Camping Protocol! This site provides a comprehensive guide to making your camping experience enjoyable, efficient, and memorable. Explore the sections below to learn about camping goals, gear management, meal planning, and more.
 
