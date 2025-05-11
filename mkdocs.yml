@@ -1,4 +1,4 @@
-site_name: "Family Camping Protocol"
+site_name: "ファミリーキャンプ Protocol"
 
 docs_dir: docs
 site_dir: site
@@ -22,17 +22,6 @@ plugin:
       - "**/node_modules/*"
 
 nav:
-  - English:
-      - Home: en/index.md
-      - Purpose and Philosophy: en/purpose.md
-      - Setup and Takedown Efficiency: en/setup.md
-      - Tents and Sleep Quality: en/tents.md
-      - Cooking and Meals: en/cooking.md
-      - Campfire Time: en/campfire.md
-      - Other Enjoyments: en/enjoyments.md
-      - Preparation and Planning: en/planning.md
-      - Gear Management: en/gear.md
-      - Future Camping Standards (FC2025): en/fc2025.md
   - 日本語:
       - ホーム: ja/index.md
       - キャンプの目的と考え方: ja/purpose.md
@@ -44,3 +33,14 @@ nav:
       - 事前準備と計画: ja/planning.md
       - 装備（ギア）の管理: ja/gear.md
       - 今後のキャンプ基準（FC2025案）: ja/fc2025.md
+  - English:
+      - Home: en/index.md
+      - Purpose and Philosophy: en/purpose.md
+      - Setup and Takedown Efficiency: en/setup.md
+      - Tents and Sleep Quality: en/tents.md
+      - Cooking and Meals: en/cooking.md
+      - Campfire Time: en/campfire.md
+      - Other Enjoyments: en/enjoyments.md
+      - Preparation and Planning: en/planning.md
+      - Gear Management: en/gear.md
+      - Future Camping Standards (FC2025): en/fc2025.md
